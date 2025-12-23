@@ -6,8 +6,6 @@ use App\Http\Controllers\Api\ServiceController;
 use App\Http\Controllers\Api\OrderController;
 use App\Http\Controllers\Api\ReviewController;
 
-
-
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
